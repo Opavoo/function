@@ -17,7 +17,7 @@ console.log(hasEqualSums([4, 4], [3, 6]));
 
 function filterNames(names, number){
     let arr = names.filter (function(n){
-        return n.length >= number;
+        return n.length == number;
      })
     return arr;
 }
