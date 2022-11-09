@@ -12,7 +12,7 @@ console.log(concatNames(person, 'Аюбов'));
 // Задание 4.2
 
 function correctName(object){
-    if(object.fathername === undefined){
+    if(!object.fathername){
         return object.firstname;
     }else{
         return `${object.firstname}  ${object.lastname} ${object.fathername}`;
